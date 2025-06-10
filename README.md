@@ -73,8 +73,12 @@ socket-chat/
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Autores
 
 Desenvolvido por Pedro Alexandre
 RA: 2301503
 GitHub: https://github.com/PedroAChaves
+
+Desenvolvido por Lucas Timponi Mercadante Castro
+RA: 2303913
+GitHub: https://github.com/luctmc
