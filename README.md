@@ -23,8 +23,58 @@ Este é um projeto simples de chat em tempo real utilizando **Node.js**, **Expre
 
 ## 🖥️ Como Usar
 
-Para rodar execute os comandos:
-    1 - npm install 
-    2 - npm start
-    3 - abrir varias abas no browser
-    4 - enviar mensagem em uma aba e receber em todas as outras.
+### 1. Clonar o Repositório
+
+```bash
+git clone https://github.com/PedroAChaves/Chat-Socket
+cd Chat-Socket
+```
+
+### 2. Instalar as Dependências
+
+```bash
+npm install
+```
+
+### 3. Iniciar o Servidor
+
+```bash
+npm start
+```
+
+O servidor será iniciado na porta `3000`. Acesse no navegador:
+
+```
+http://localhost:3000
+```
+
+---
+
+## ✅ Como Testar
+
+1. Abra **8 abas** no navegador.
+2. Em cada par de abas, selecione uma **sala diferente** (Sala 1 a Sala 4).
+3. Clique em **"Entrar na Sala"**.
+4. Envie mensagens em cada aba.
+5. As mensagens devem aparecer **somente** para quem estiver na **mesma sala**.
+
+---
+
+## 🗂️ Estrutura de Pastas
+
+```
+socket-chat/
+├── public/
+│   └── index.html       # Interface do usuário
+├── index.js             # Servidor Node.js com Socket.IO
+├── package.json         # Dependências e scripts
+└── README.md            # Este arquivo
+```
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por Pedro Alexandre
+RA: 2301503
+GitHub: https://github.com/PedroAChaves
